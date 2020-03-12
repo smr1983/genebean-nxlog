@@ -1,4 +1,4 @@
-[![GitHub tag][gh-tag-img]][gh-link]
+
 ## 2020-03-12 - Release 1.4.3
 - Added new features for Input: input_options & input_queryxml
 
