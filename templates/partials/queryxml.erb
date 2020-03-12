@@ -1,0 +1,11 @@
+<%- unless @input_queryxml.empty? -%>
+<QueryXML>
+    <QueryList>
+        <Query Id="1">
+            <%- @input_queryxml.each do | key, value | -%>
+                <Select Path="<%= "#{key}" -%>"><%= "#{value}" -%></Select>
+            <%- end -%>
+        </Query>
+    </QueryList>
+</QueryXML>
+<%- end %>
