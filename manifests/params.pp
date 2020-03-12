@@ -28,6 +28,9 @@ class nxlog::params {
   $route_destination           = undef
   $route_source                = undef
 
+  $input_queryxml              = {}
+  $input_options               = []
+
   # Ordering for the config fragments
   $order_header                = '01'
   $order_extension             = '05'
@@ -35,4 +38,6 @@ class nxlog::params {
   $order_processor             = '30'
   $order_output                = '40'
   $order_route                 = '90'
+
+
 }

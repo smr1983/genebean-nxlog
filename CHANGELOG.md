@@ -1,4 +1,6 @@
 [![GitHub tag][gh-tag-img]][gh-link]
+## 2020-03-12 - Release 1.4.3
+- Added new features for Input: input_options & input_queryxml
 
 ## 2017-10-11 - Release 1.4.2  
 - Updated dependencies so the puppetlabs version of the chocolatey module is used
