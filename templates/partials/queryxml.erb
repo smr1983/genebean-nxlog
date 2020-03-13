@@ -2,8 +2,10 @@
 <QueryXML>
     <QueryList>
         <Query Id="1">
-            <%- @input_queryxml.each do | key, value | -%>
+            <%- @input_queryxml.each do | key, value_arr | -%>
+            <%- value_arr.each do | value | -%>
                 <Select Path="<%= "#{key}" -%>"><%= "#{value}" -%></Select>
+            <%- end -%>
             <%- end -%>
         </Query>
     </QueryList>
